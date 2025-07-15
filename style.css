@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background-color: white;
+}
+
+.logo img {
+  height: 65px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.auth-buttons .sign-up {
+  background-color: #f92aad;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-buttons .login {
+  color: #f92aad;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
